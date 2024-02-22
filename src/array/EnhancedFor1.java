@@ -14,6 +14,10 @@ public class EnhancedFor1 {
         // iter 향상된 for문 단축키
         for(int number : numbers) {
             System.out.println(number);
+
+            //for-each문을 사용할 수 없을때, 증가하는 index값 필요
+            //for(int i = 0; i < number.length; i++) {
+            //System.out.println("number: " + i + "번의 결과는 " + numbers[i]);
         }
     }
 }
